@@ -9,31 +9,23 @@
 import Foundation
 
 protocol Strategy {
-    
     func search()
-    
 }
 
-class textStrategy: Strategy{
-    
+class TextStrategy: Strategy{
     func search(){
         print("text search")
     }
-    
 }
 
-class imageStrategy: Strategy{
-    
+class ImageStrategy: Strategy{
     func search(){
         print("image search")
     }
-    
 }
 
-class movieStrategy: Strategy{
-    
+class MovieStrategy: Strategy{
     func search(){
         print("movie search")
     }
-    
 }
