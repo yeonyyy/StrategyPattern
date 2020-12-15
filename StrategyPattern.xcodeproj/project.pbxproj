@@ -17,7 +17,7 @@
 		6FFBAD30254550DF00E1C500 /* StrategyPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBAD2F254550DF00E1C500 /* StrategyPatternTests.swift */; };
 		6FFBAD3B254550DF00E1C500 /* StrategyPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBAD3A254550DF00E1C500 /* StrategyPatternUITests.swift */; };
 		6FFBAD49254552C800E1C500 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBAD48254552C800E1C500 /* Strategy.swift */; };
-		6FFBAD4B25455D2B00E1C500 /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBAD4A25455D2B00E1C500 /* SearchButton.swift */; };
+		6FFBAD4B25455D2B00E1C500 /* SearchStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFBAD4A25455D2B00E1C500 /* SearchStrategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		6FFBAD3A254550DF00E1C500 /* StrategyPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyPatternUITests.swift; sourceTree = "<group>"; };
 		6FFBAD3C254550DF00E1C500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FFBAD48254552C800E1C500 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
-		6FFBAD4A25455D2B00E1C500 /* SearchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
+		6FFBAD4A25455D2B00E1C500 /* SearchStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				6FFBAD48254552C800E1C500 /* Strategy.swift */,
-				6FFBAD4A25455D2B00E1C500 /* SearchButton.swift */,
+				6FFBAD4A25455D2B00E1C500 /* SearchStrategy.swift */,
 				6FFBAD15254550DE00E1C500 /* AppDelegate.swift */,
 				6FFBAD17254550DE00E1C500 /* SceneDelegate.swift */,
 				6FFBAD19254550DE00E1C500 /* ViewController.swift */,
@@ -273,7 +273,7 @@
 				6FFBAD20254550DE00E1C500 /* StrategyPattern.xcdatamodeld in Sources */,
 				6FFBAD16254550DE00E1C500 /* AppDelegate.swift in Sources */,
 				6FFBAD18254550DE00E1C500 /* SceneDelegate.swift in Sources */,
-				6FFBAD4B25455D2B00E1C500 /* SearchButton.swift in Sources */,
+				6FFBAD4B25455D2B00E1C500 /* SearchStrategy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
