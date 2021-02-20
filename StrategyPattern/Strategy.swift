@@ -29,3 +29,9 @@ class MovieStrategy: Strategy{
         print("movie search")
     }
 }
+
+class MusicStrategy: Strategy{
+    func search(){
+        print("music search")
+    }
+}

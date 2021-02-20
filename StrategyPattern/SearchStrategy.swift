@@ -13,7 +13,7 @@ class SearchStrategy {
     var myStrategy : Strategy!
     
     init(){
-        myStrategy = textStrategy()
+        myStrategy = TextStrategy()
     }
     
     func setStrategy(strategy: Strategy){

@@ -18,16 +18,20 @@ class ViewController: UIViewController {
         print("viewDidLoad")
     }
     
-    @IBAction func textMod(_ sender: Any) {
-        searchStrategy.setStrategy(strategy: textStrategy())
+    @IBAction func textMode(_ sender: Any) {
+        searchStrategy.setStrategy(strategy: TextStrategy())
     }
     
     @IBAction func imageMode(_ sender: Any) {
-        searchStrategy.setStrategy(strategy: imageStrategy())
+        searchStrategy.setStrategy(strategy: ImageStrategy())
     }
     
     @IBAction func movieMode(_ sender: Any) {
-        searchStrategy.setStrategy(strategy: movieStrategy())
+        searchStrategy.setStrategy(strategy: MovieStrategy())
+    }
+    
+    @IBAction func musicMode(_ sender: Any) {
+        searchStrategy.setStrategy(strategy: MovieStrategy())
     }
     
     @IBAction func Search(_ sender: Any) {

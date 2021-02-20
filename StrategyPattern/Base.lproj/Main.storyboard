@@ -45,7 +45,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="textMod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L3E-w8-Erw"/>
+                                    <action selector="textMode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aUL-5p-lJn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSY-fy-9pe">
@@ -68,6 +68,17 @@
                                 </state>
                                 <connections>
                                     <action selector="movieMode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aIx-sz-koy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZJ-WJ-IfG">
+                                <rect key="frame" x="283" y="390" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.55639127970000002" green="0.64449481119999996" blue="0.71954314720000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="music">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="musicMode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vj4-9n-6OC"/>
                                 </connections>
                             </button>
                         </subviews>
